@@ -20,7 +20,7 @@ main {
 /* Header */
 
 /* ---------------------------------- Navigation ---------------------------------- */
-.header {
+.header{
     position: fixed;
     top: 0;
     left: 0;
@@ -30,42 +30,158 @@ main {
     z-index: 100;
 }
 
-.header-icon {
+.header-icon{
     width: 40px;
     margin: 8px 15px;
     position: absolute;
 }
 
-nav {
+nav{
     position: absolute;
     left: 0;
     margin: 20px 30px 0px;
+    font-size: large;
 }
 
-a {
-    color: white;
+a{
+    color: rgb(224, 251, 252);
     text-decoration: none;
     padding: 10px;
 }
 
 /* Jumbotron */
+#jumbotron{
+    width: 100%;
+}
+
 .jumbotron-title{
     margin: 10px 600px 600px;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .jumbotron{
     padding: 10px 20px 60px;
     text-align: center;
     background-color: rgb(38, 70, 83);
+    height: 500px;
 }
 
-.jumbotron-text {
+.content{
+    display: flex;
+}
+
+.jumbotron-text{
     color: rgb(224, 251, 252);
     text-align: left;
     padding-bottom: 20px;
     border-bottom: 8px solid rgb(38, 53, 67);
-    padding-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    margin: 0 0 0;
+    margin-top: 50px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: -450px;
+}
+
+.jumbotron{
+    padding: 20px 20px 60px;
+    text-align: center;
+    background-color: rgb(38, 70, 83);
+}
+
+.mini-text{
+    color: rgb(224, 251, 252);
+    text-align: left;
+    margin-right: 5px;
+    font-size: medium;
+}
+
+.wave1{
+    position: absolute;
+    top: 350px;
+    z-index: 2;
+}
+
+.wave2{
+    position: absolute;
+    top: 360px;
+    z-index: 3;
+}
+
+.news-title{
+    background-color: rgb(38, 70, 83);
+    color: rgb(224, 251, 252);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.news-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news{
+    margin: 10px 30px;
+    border-bottom: 10px solid rgb(38, 53, 67);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+.news h4{
+    color: rgb(38, 70, 83);
+    font-weight: bold;
+    text-align: center;
+}
+
+.news p, ul{
+    color: rgb(38, 70, 83);
+}
+
+/* Footer */
+.footer{
+    margin-top: 50px;
+}
+
+.center-footer{
+    margin: 0 20px;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(38, 70, 83);
+    margin-top: 40px;
+}
+
+.info-top{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(224, 251, 252);
+}
+
+.info-center{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram-square, .fa-twitter-square, .fa-facebook-square, .fa-envelope{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
 }
