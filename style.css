@@ -19,7 +19,7 @@ main {
 
 /* Header */
 
-/* ---------------------------------- Navigation ---------------------------------- */
+/* Navigation */
 .header{
     position: fixed;
     top: 0;
@@ -43,7 +43,7 @@ nav{
     font-size: large;
 }
 
-a{
+nav a{
     color: rgb(224, 251, 252);
     text-decoration: none;
     padding: 10px;
@@ -107,6 +107,11 @@ a{
     z-index: 3;
 }
 
+/* News */
+.news-content{
+    margin-top: 115px;
+}
+
 .news-title{
     background-color: rgb(38, 70, 83);
     color: rgb(224, 251, 252);
@@ -140,6 +145,15 @@ a{
 
 .news p, ul{
     color: rgb(38, 70, 83);
+}
+
+.news a{
+    text-decoration: none;
+    color: rgb(38, 70, 83);
+}
+
+.news img{
+    border-radius: 8px;
 }
 
 /* Footer */
@@ -184,4 +198,57 @@ a{
     padding: 5px;
     font-size: 30px;
     color: white;
+    padding-bottom: 10px;
 }
+
+/* Chip */
+.chip{
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(38, 70, 83);
+}
+
+#chip-info{
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(38, 53, 67);
+}
+
+#chip-skills{
+    padding-top: 20px;
+}
+
+.chip img{
+    border-radius: 8px;
+}
+
+.chip ul{
+    text-align: left;
+    margin-left: 550px;
+}
+
+.chip-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills{
+    margin: 10px 30px;
+    border-bottom: 10px solid rgb(38, 53, 67);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+    color: rgb(red, green, blue);
+}
+
+.chip-title{
+    color: rgb(38, 70, 83);
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+/* Heroes */
+
