@@ -82,6 +82,10 @@ nav a{
     margin-left: -450px;
 }
 
+.jumbotron img{
+    border-radius: 8px;
+}
+
 .jumbotron{
     padding: 20px 20px 60px;
     text-align: center;
@@ -251,4 +255,53 @@ nav a{
 }
 
 /* Heroes */
+#heroes-jumbotron{
+    width: 100%;
+}
 
+.heroes-title{
+    margin: 10px 400px 400px;
+    padding: 0;
+    margin-bottom: 0;
+    color: rgb(224, 251, 252);
+    font-size: large;
+}
+
+.heroes-jumbotron-content{
+    padding: 10px 20px 60px;
+    text-align: center;
+    background-color: rgb(38, 70, 83);
+    height: 500px;
+}
+
+.heroes-content{
+    display: flex;
+}
+
+.heroes-text{
+    color: rgb(224, 251, 252);
+    text-align: left;
+    padding-bottom: 0;
+    border-bottom: 8px solid rgb(38, 53, 67);
+    margin-top: 50px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: -700px;
+}
+
+.heroes-jumbotron img{
+    border-radius: 8px;
+}
+
+.heroes-jumbotron{
+    padding: 20px 20px 60px;
+    text-align: center;
+    background-color: rgb(38, 70, 83);
+}
+
+.heroes-text{
+    color: rgb(224, 251, 252);
+    text-align: left;
+    margin-right: 5px;
+    font-size: medium;
+}
