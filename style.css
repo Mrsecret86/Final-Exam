@@ -113,7 +113,7 @@ nav a{
 
 /* News */
 .news-content{
-    margin-top: 115px;
+    margin-top: 120px;
 }
 
 .news-title{
@@ -130,6 +130,7 @@ nav a{
 .news-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .news{
@@ -139,6 +140,7 @@ nav a{
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px gainsboro;
+    width: 600px;
 }
 
 .news h4{
@@ -227,7 +229,6 @@ nav a{
 
 .chip ul{
     text-align: left;
-    margin-left: 550px;
 }
 
 .chip-container {
@@ -243,7 +244,6 @@ nav a{
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px gainsboro;
-    color: rgb(red, green, blue);
 }
 
 .chip-title{
@@ -251,7 +251,10 @@ nav a{
     font-weight: bold;
     text-align: center;
     font-size: x-large;
-    padding-bottom: 20px;
+}
+
+.chip-desc{
+    color: rgb(38, 70, 83);
 }
 
 /* Heroes */
@@ -260,9 +263,9 @@ nav a{
 }
 
 .heroes-title{
-    margin: 10px 400px 400px;
-    padding: 0;
-    margin-bottom: 0;
+    margin: 0 400px 400px;
+    padding: 10px;
+    margin-bottom: 3px;
     color: rgb(224, 251, 252);
     font-size: large;
 }
@@ -305,3 +308,230 @@ nav a{
     margin-right: 5px;
     font-size: medium;
 }
+
+#heroes-info{
+    padding-top: 20px;
+}
+
+.hero img{
+    border-radius: 8px;
+}
+
+.hero ul{
+    text-align: left;
+}
+
+.heroes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hero{
+    margin: 10px 30px;
+    border-bottom: 10px solid rgb(38, 53, 67);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+.hero-title{
+    color: rgb(38, 70, 83);
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.heroes-info-title{
+    background-color: rgb(38, 70, 83);
+    color: rgb(224, 251, 252);
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.hero-desc{
+    color: rgb(38, 70, 83);
+    padding-top: 0;
+}
+
+/* Maps */
+.maps-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.maps{
+    margin: 10px 30px;
+    border-bottom: 10px solid rgb(38, 53, 67);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+.maps-title{
+    color: rgb(38, 70, 83);
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.mlbb-maps-title{
+    text-align: center;
+    color: rgb(38, 70, 83);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Contact */
+.contact-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.picture{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.contact{
+    display: inline-block;
+    margin: 30px 40px;
+    text-align: center;
+    border: 2px solid rgb(38, 53, 67);
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    color: rgb(38, 53, 67);
+}
+
+.form-label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: rgb(38, 53, 67);
+}
+
+.form-input{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgb(38, 70, 83);
+    outline: none;
+    height: 48px;
+    margin-bottom: 15px;
+    padding: 0;
+    color: rgb(38, 53, 67);
+}
+
+.input-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    height: 100%;
+}
+
+.textarea-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-textarea{
+    position: relative;
+}
+
+.textarea{
+    border-style: none;
+    border-bottom: 1px solid rgb(38, 70, 83);
+    outline: none;
+    margin-top: 10px;
+}
+
+.submit{
+    border-style: none;
+    border-radius: 25px;
+    color: rgb(224, 251, 252);
+    background-color: rgb(38, 70, 83);
+    margin: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.input-item:focus + .form-label{
+    top: -2px;
+    left: 4px;
+    font-size: 15px;
+    color: rgb(38, 70, 83);
+}
+
+.textarea:focus + .form-label{
+    top: -2px;
+    left: 4px;
+    font-size: 15px;
+    color: rgb(38, 70, 83);
+}
+
+.input-item:not(:placeholder-shown).input-item:not(:focus) + .form-label{
+    top: -2px;
+    left: 4px;
+    font-size: 15px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* About */
+.about-title{
+    color: rgb(38, 70, 83);
+    padding-left: 100px;
+}
+
+.about{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.account{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 1100px;
+    border-bottom: 10px solid rgb(38, 53, 67);
+    border-radius: 10px;
+    box-shadow: 0 0 10px gainsboro;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.account-content{
+    margin-top: 50px;
+}
+
+

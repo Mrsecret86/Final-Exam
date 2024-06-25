@@ -13,7 +13,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Mobile Legends: Bang Bang</title>
+    <title>Contact</title>
 </head>
 <body>
     <!-- Header -->
@@ -31,7 +31,74 @@
 
     <!-- Main -->
     <main>
-        
+        <div class="contact-container">
+            <div class="picture">
+                <img src="assets/Contact Image.jpg" alt="">
+            </div>
+
+            <div class="contact">
+                <h1>Contact Me</h1>
+                <p>Wanna play Mobile Legends: Bang Bang with Me?</p>
+                <h4>Your Information</h4>
+
+                <!-- FORM -->
+                <form action="https://formsubmit.co/salvinokenansitorus@gmail.com" autocomplete="off" method="post">
+                    <div class="form-container">
+
+                        <!-- Input Userame Column -->
+                        <div class="input-container show">
+                            <div class="icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="username" id="username" placeholder=" ">
+                                <label for="username" class="form-label">Username </label>
+                            </div>
+                        </div>
+
+                        <!-- Input ID Column -->
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+
+                            <div class="form-input">
+                                <input type="number" class="input-item" name="id" id="id" placeholder=" ">
+                                <label for="id" class="form-label">ID </label>
+                            </div>
+                        </div>
+
+                        <!-- Input Favorite Hero Column -->
+                        <div class="input-container show">
+                            <div class="icon">
+                                <i class="fas fa-mask"></i>
+                            </div>
+
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="favoritehero" id="favoritehero" placeholder=" ">
+                                <label for="favoritehero" class="form-label">Favorite Hero </label>
+                            </div>
+                        </div>
+
+                        <!-- Input Message Column -->
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-comment"></i>
+                            </div>
+
+                            <div class="form-textarea">
+                                <textarea name="message" type="text" id="message" class="textarea" cols="52" rows="8" placeholder=" "></textarea>
+                                <label for="message" class="form-label">Message </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit" class="submit">
+
+                </form>
+            </div>
+        </div>
     </main>
 
     <!-- Footer -->
